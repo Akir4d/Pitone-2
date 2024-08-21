@@ -42,3 +42,34 @@ print(coordinate[0])
 # Dizionario (dict)
 utente = {"nome": "Alice", "eta": 25}
 print(utente["nome"])
+
+# e' possibile convertire un tipo in un altro purche' sia 
+# possibile interpretarlo
+# posso convertire (cast) 
+# str che rappresenta un intero in int
+x_str = '10'
+x_str = int(x_str)
+print(x_str + 1)
+# str che rappresenta un float in float
+x_str = '9.9'
+x_str = float(x_str)
+print(x_str + 1.2)
+# possiamo convertire un float in int e viceversa
+# esiste anche l'insieme (set) in python (per scopi matematici)
+# questo puo' essere convertito in lista e viceversa
+x_set = {1, 2, 3}
+print(x_set)
+x_set = list(x_set)
+print(x_set)
+# stesso discorso si puo' convertire tuple in list e viceversa
+x_list = [1, 2, 3]
+x_list = tuple(x_list)
+print(x_list)
+# se dovete converite un float stinga in intero, fate doppio cast
+x_float = "9.6"
+x_float = int(float(x_float))
+print(x_float)
+
+print(f'''Ciao {x_float}
+      Mondo''')
+print(b"ciao")
