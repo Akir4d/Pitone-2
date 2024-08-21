@@ -73,3 +73,10 @@ print(x_float)
 print(f'''Ciao {x_float}
       Mondo''')
 print(b"ciao")
+
+lista = [10, 30, 40, 70]
+x, y, z, _ = lista
+#x = lista[0]
+#y = lista[1]
+#z = lista[2]
+print(y)
